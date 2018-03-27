@@ -1,8 +1,9 @@
-In general, real users have relative stable preference when selecting items, so the similarity
-between the selected items by real users is usually high. However, the spammer purchas-
-ing behaviors are assigned by the Internet water army company. Therefore, the similarity
-among the items purchased by spammers tend to be low. Based on the above assumption,
-we design the following algorithm based on KNN apporach to improve the robustness of
-recommendation algorithms. First, we calculate the average similarity between all the items
-selected by a user, and denote it as a vector !. The vector ! will be used to improve the
-KNN approach. Instead of adopting the  fraction of users with highest diffusion score f,
+We respectively calculate precision, ranking score, diversity and novelty in the case of
+=0, 0.5, 1, 2 with the improved KNN approach. We found that for the improved KNN
+approach, when  = 2, the proposed algorithm can significantly improve both the diversity
+and the recommendation accuracy in comparison with the original KNN approach. In Fig.
+4 and Fig. 5, the horizontal axis is KNN ratio  from 0.01 to 0.3. Specifically, Fig. 4 (a)(b)
+show the results of precision, Fig. 4 (c)(d) show the results of ranking score. Fig. 5 (a)(b)
+show the results of diversity, Fig. 5 (c)(d) show the results of novelty. Obviously, when
+ = 2, the new algorithm performs much better than the original KNN approach, both in
+the recommendation accuracy and recommendation diversity.
