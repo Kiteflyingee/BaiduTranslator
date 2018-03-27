@@ -1,4 +1,8 @@
-The missing link prediction problem [1] and the spurious link identification problem [2] are described in the first
-three paragraphs of the main article and illustrated by Fig. 1 and Fig. 2 in the main article, respectively, which are
-networks of 4 nodes. The total number of networks with 4 nodes is 64 as shown in Supplementary Fig. 1 in this
-Supplementary Information (SI).
+In general, real users have relative stable preference when selecting items, so the similarity
+between the selected items by real users is usually high. However, the spammer purchas-
+ing behaviors are assigned by the Internet water army company. Therefore, the similarity
+among the items purchased by spammers tend to be low. Based on the above assumption,
+we design the following algorithm based on KNN apporach to improve the robustness of
+recommendation algorithms. First, we calculate the average similarity between all the items
+selected by a user, and denote it as a vector !. The vector ! will be used to improve the
+KNN approach. Instead of adopting the  fraction of users with highest diffusion score f,

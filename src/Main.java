@@ -25,7 +25,7 @@ public class Main {
         StringBuffer sb = new StringBuffer();
         String str = "";
         while((str=br.readLine())!=null) {
-        	
+        	str=str.replaceAll("", "QAQ");
         	sb.append(str+" ");
         }
         System.out.println("src:" + sb.toString());
@@ -52,7 +52,7 @@ public class Main {
         	}
         }
         long end = System.currentTimeMillis();
-        System.out.println("耗时:"+ (end-start)/1000);
+        System.out.println("耗时:"+ (end-start) +"ms");
     }
 
 }
