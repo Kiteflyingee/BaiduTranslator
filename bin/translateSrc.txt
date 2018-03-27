@@ -1,0 +1,4 @@
+The missing link prediction problem [1] and the spurious link identification problem [2] are described in the first
+three paragraphs of the main article and illustrated by Fig. 1 and Fig. 2 in the main article, respectively, which are
+networks of 4 nodes. The total number of networks with 4 nodes is 64 as shown in Supplementary Fig. 1 in this
+Supplementary Information (SI).
